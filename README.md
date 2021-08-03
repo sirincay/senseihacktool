@@ -15,7 +15,7 @@ Terminalınıza 35 Fərqli Alətlər Quraşdırmağınıza Kömək Edəcək Bir 
 
 # Xəbərdarlıq
 
-`**Bu vasitə xidmət məqsədləri üçün yazılmışdır. Görülən hər hansı bir fəaliyyətə görə məsuliyyət daşımırıq.**`
+**Bu vasitə xidmət məqsədləri üçün yazılmışdır. Görülən hər hansı bir fəaliyyətə görə məsuliyyət daşımırıq.**
 
 _Translate: [Hüsnü](t.me/husnuehedov)_
 
