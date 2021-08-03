@@ -9,7 +9,7 @@
 
 # Haqqında
 
-Bu Alət **Məlumat Toplama,** **DDOS Hücumları,** **Şifrə Kırma Hücumları**
+Bu Alət **Məlumat Toplama,** **DDOS Hücumları,** **Şifrə Qırma Hücumları**,
 **Zəiflik Analizi** Alətləri daxil olmaqla 4 Fərqli Hacking Sahəsində
 Terminalınıza 35 Fərqli Alətlər Quraşdırmağınıza Kömək Edəcək Bir Xidmət Proqramıdır.
 
@@ -17,4 +17,5 @@ Terminalınıza 35 Fərqli Alətlər Quraşdırmağınıza Kömək Edəcək Bir 
 
 **Bu vasitə xidmət məqsədləri üçün yazılmışdır. Görülən hər hansı bir fəaliyyətə görə məsuliyyət daşımırıq.**
 
-_Credits: [Sensei](t.me/@sensei)
+_Translate: [Hüsnü](t.me/husnuehedov)_
+_Credits: [Sensei](t.me/@sensei)_
