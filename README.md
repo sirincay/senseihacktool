@@ -18,4 +18,5 @@ Terminalınıza 35 Fərqli Alətlər Quraşdırmağınıza Kömək Edəcək Bir 
 **Bu vasitə xidmət məqsədləri üçün yazılmışdır. Görülən hər hansı bir fəaliyyətə görə məsuliyyət daşımırıq.**
 
 _Translate: [Hüsnü](t.me/husnuehedov)_
+
 _Credits: [Sensei](t.me/@sensei)_
