@@ -1,4 +1,4 @@
-# Kurulum
+# Qurulum
 
 `$ pkg install git` <br/>
 `$ pkg install python` <br/>
@@ -7,12 +7,14 @@
 `$ cd senseihacktool` <br/>
 `$ python3 senseihacktool.py`
 
-# Hakkında
+# Haqqında
 
-Bu Araç *Bilgi toplama*, *DDOS Saldırıları*, *Şifre Kırma Saldırıları* 
-ve *Güvenlik Açığı Analiz Araçları'nı* İçeren 4 Farklı Hack Alanında
-35 Farklı Aracı Terminalinize Kurmaya Yardımcı Olucak Bir *Hizmet Yazılımıdır.*
+Bu Alət *Məlumat Toplama,* *DDOS Hücumları,* *Şifrə Kırma Hücumları*
+*Zəiflik Analizi* Alətləri daxil olmaqla 4 Fərqli Hacking Sahəsində
+Terminalınıza 35 fərqli alət quraşdırmağınıza kömək edəcək bir xidmət proqramıdır.
 
-# Uyarı
+# Xəbərdarlıq
 
-**Bu Araç Hizmet Amaçlı Yazılmıştır. Yapılan Hiçbir Faaliyetten Sorumlu Değilim.**
+**Bu vasitə xidmət məqsədləri üçün yazılmışdır. Görülən hər hansı bir fəaliyyətə görə məsuliyyət daşımırıq.**
+
+_Credits: [Sensei](t.me/@sensei)
