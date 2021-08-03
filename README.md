@@ -9,9 +9,9 @@
 
 # Haqqında
 
-Bu Alət **Məlumat Toplama,** *DDOS Hücumları,* *Şifrə Kırma Hücumları*
-*Zəiflik Analizi* Alətləri daxil olmaqla 4 Fərqli Hacking Sahəsində
-Terminalınıza 35 fərqli alət quraşdırmağınıza kömək edəcək bir xidmət proqramıdır.
+Bu Alət **Məlumat Toplama,** **DDOS Hücumları,** **Şifrə Kırma Hücumları**
+**Zəiflik Analizi** Alətləri daxil olmaqla 4 Fərqli Hacking Sahəsində
+Terminalınıza 35 Fərqli Alətlər Quraşdırmağınıza Kömək Edəcək Bir Xidmət Proqramıdır.
 
 # Xəbərdarlıq
 
