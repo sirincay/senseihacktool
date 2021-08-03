@@ -22,26 +22,26 @@ print ("""
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-while True:
+while Trua:
   print ("""
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 •                                                 •
 •             ~SENSEİ OFFİCAL HACK TOOL~          •
 •                                                 •
-•        [0] Yardımcı Paketleri Kurmak İçin       •
-•        [1] Bilgi Toplama Araçları               •
-•        [2] DDOS Saldırı Araçları                •
-•        [3] Şifre Kırma Araçları                 •     
-•        [4] Güvenlik Açığı Analiz Araçları       •
+•        [0] Köməkçi paketləri quraşdırmaq üçün   •
+•        [1] Məlumat toplama vasitələri           •
+•        [2] DDOS Hücum Alətləri                  •
+•        [3] Şifrə Qırma Alətləri                 •     
+•        [4] Təhlükəsizlik Analizi Alətləri       •
 •                                                 •
-•        [x] Çıkış Yapmak İçin                    •
+•        [x] Çıxmaq Üçün                          •
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   """)
   
-  karar = input ("Ne Yapmak İstersiniz: ")
+  karar = input ("Nə etmək istəyirsən: ")
   if karar=="x":
-    print ("Yine Bekleriz...")
+    print ("Yenə Gözləyirik...")
     break
 
   elif karar=="0":
@@ -60,7 +60,7 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-    print ("Yardımcı Paketler Kuruluyor...")
+    print ("Köməkçi paketlərin quraşdırılır...")
     os.system ("pkg install python -y")
     os.system ("pkg install python2 -y")
     os.system ("pkg install python3 -y")
@@ -78,33 +78,33 @@ while True:
     os.system ("pkg install pip2")
     os.system ("pkg install pip3")
     os.system ("pkg install tsu")
-    print ("Yardımcı paketler Kuruldu.")
+    print ("Köməkçi paketlər quraşdırılıb.")
     
   elif karar=="1":
     os.system ("clear")
     print ("""
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     •                                                •
-    •              ~BİLGİ TOPLAMA ARAÇLARI~          •
+    •              ~MƏLUMAT TOPLAMA VASİTƏLƏRİ~      •
     •                                                •
-    •    [1] Telefon Numarasından Bilgi Toplama      •
-    •    [2] TC Kimlik Numarasi Son 2 Hane Bulucu    •
-    •    [3] IP Adresinden Konum Bulma               •
-    •    [4] Web Sitelerinden Bilgi Toplama          •
-    •    [5] İnstagram Hesaplarından Bilgi Toplama   •
-    •    [6] İsimden Sosyal Medya Hesap Sorgulama    •
-    •    [7] Facebook Hesaplarından Bilgi Toplama    •
-    •    [8] Mac Adresleri Hakkinda Bilgi Toplama    •
-    •    [9] E-posta'dan Bilgi Toplama               •
-    •    [10] phishing Aracı                         •
+    •    [1] Telefon nömrəsindən məlumat toplamaq    •
+    •    [2] TR Kimlik Nömrəsi Son 2 Rəqəm Tapmaq    •
+    •    [3] IP ünvanından Məkan tapın               •
+    •    [4] Veb saytlardan məlumat toplamaq         •
+    •    [5] İnstagram hesablardan məlumat toplamaq  •
+    •    [6] Adına görə Sosial Media Hesabı Sorğusu  •
+    •    [7] Facebook Hesablarından Məlumat Toplamaq •
+    •    [8] Mac ünvanları haqqında məlumat toplamaq •
+    •    [9] E -poçtdan Məlumat Toplanması           •
+    •    [10] Phishing Aləti                         •
     •                                                •
-    •    [x] Çıkış Yapmak İçin                       •
+    •    [x] Çıxmaq Üçün                             •
     •                                                •
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     """)
-    karar1 = input ("Ne Yapmak İstersiniz: ")
+    karar1 = input ("Nə etmək istəyirsən: ")
     if karar1=="x":
-      print ("Yine Bekleriz...")
+      print ("Yenə Gözləyirik...")
       break  
       
     elif karar1=="1":
@@ -123,10 +123,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("PhoneInfoga Kuruluyor...")
+      print ("PhoneInfoga Quraşdırılır...")
       os.system ("apt update")
       os.system ("git clone https://github.com/ExpertAnonymous/PhoneInfoga.git")
-      print ("PhoneInfoga Kuruldu.")
+      print ("PhoneInfoga Quruldu.")
       
     elif karar1=="2":
       os.system ("clear")
@@ -144,7 +144,7 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """) 
-      tcnumara = input("TC Kimlik No Ilk 9 Hanesini Giriniz: ")
+      tcnumara = input("TR Kimlik nömrəsinin ilk 9 rəqəmini daxil edin: ")
       def tcno(tcno):
         if len(tcno) == 9:
             a = 7*(int(tcno[0])+int(tcno[2])+int(tcno[4])+int(tcno[6])+int(tcno[8]))
@@ -156,7 +156,7 @@ while True:
               toplamOn=toplamOn+int(onHaneli[i])
             haneOnBir = toplamOn%10
             return tcno+str(haneOn)+str(haneOnBir)
-      print ("TC Kimlik No'nun Tamami :",tcno(tcnumara))
+      print ("TC Kimlik No'nun Tamı :",tcno(tcnumara))
       
     elif karar1=="3":
       os.system ("clear")
@@ -174,10 +174,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("IPGeolocation Kuruluyor...")
+      print ("IPGeolocation Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/maldevel/IPGeoLocation.git")
-      print ("IPGeolocation Kuruldu.")
+      print ("IPGeolocation Quruldu.")
       
     elif karar1=="4":
       os.system ("clear")
@@ -195,10 +195,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("RED_HAWK Kuruluyor...")
+      print ("RED_HAWK Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/Tuhinshubhra/RED_HAWK.git")
-      print ("RED_HAWK Kuruldu.")
+      print ("RED_HAWK Quruldu.")
       
     elif karar1=="5":
       os.system ("clear")
@@ -216,10 +216,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("osi.ig Kuruluyor...")
+      print ("osi.ig Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/th3unkn0n/osi.ig.git")
-      print ("osi.ig Kuruldu.")
+      print ("osi.ig Quruldu.")
       
       
     elif karar1=="6":
@@ -238,10 +238,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("userrecon Kuruluyor...")
+      print ("userrecon Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/issamelferkh/userrecon.git")
-      print ("userrecon Kuruldu.")
+      print ("userrecon Quruldu.")
       
     elif karar1=="7":
       os.system ("clear")
@@ -259,10 +259,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """) 
-      print ("OSIF Kuruluyor...")
+      print ("OSIF Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/ciku370/OSIF.git")
-      print ("OSIF Kuruldu.")
+      print ("OSIF Quruldu.")
       
     elif karar1=="8":
       os.system ("clear")
@@ -280,10 +280,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("mac-lookup Kuruluyor...")
+      print ("mac-lookup Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/ivan-loh/mac-lookup.git")
-      print ("mac-lookup Kuruldu.")
+      print ("mac-lookup Quruldu.")
       
     elif karar1=="9":
       os.system ("clear")
@@ -301,10 +301,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Infoga Kuruluyor...")
+      print ("Infoga Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/m4ll0k/Infoga.git")
-      print ("Infoga Kuruldu.")
+      print ("Infoga Quruldu.")
     
     elif karar1=="10":
       os.system ("clear")
@@ -322,30 +322,30 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("ShellPhish Kuruluyor...")
+      print ("ShellPhish Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/AbirHasan2005/ShellPhish.git")
-      print ("ShellPhish Kuruldu.")
+      print ("ShellPhish Quruldu.")
       
   elif karar=="2":
     os.system ("clear")
     print ("""
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-•             ~DDOS SALDIRI ARAÇLARI~             •
+•             ~DDOS HÜCUM VASİTƏLƏRİ~             •
 •                                                 •
-•        [1] Hammer DDOS Aracı                    •
-•        [2] Hulk DDOS Aracı                      •
-•        [3] XERXES DDOS Aracı                    •
-•        [4] SMS Bomb Aracı                       •
-•        [5] Anonim SMS Gönderme                  •
+•        [1] Hammer DDOS Aləti                    •
+•        [2] Hulk DDOS Aləti                      •
+•        [3] XERXES DDOS Aləti                    •
+•        [4] SMS Bomb Aləti                       •
+•        [5] Anonim SMS Aləti                     •
 •                                                 •
-•        [x] Çıkış Yapmak İçin                    •
+•        [x] Çıxmaq Üçün                          •
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-    karar2 = input ("Ne Yapmak İstersiniz: ")
+    karar2 = input ("Nə etmək istəyirsən: ")
     if karar2=="x":
-      print ("Yine Bekleriz...")
+      print ("Yenə Gözləyirik...")
       sys.exit()
       
     elif karar2=="1":
@@ -364,10 +364,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """) 
-      print ("Hammer Kuruluyor...")
+      print ("Hammer Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/cyweb/hammer.git")   
-      print ("Hammer Kuruldu.")
+      print ("Hammer Quruldu.")
       
     elif karar2=="2":
       os.system ("clear")
@@ -385,10 +385,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Hulk kuruluyor...")
+      print ("Hulk Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/grafov/hulk.git")
-      print ("Hulk Kuruldu.")
+      print ("Hulk Quruldu.")
      
     elif karar2=="3":
       os.system ("clear")
@@ -406,10 +406,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("XERXES Kuruluyor...")
+      print ("XERXES Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/CyberXCodder/XerXes.git")
-      print ("XERXES Kuruldu.")
+      print ("XERXES Quruldu.")
       
     elif karar2=="4":
       os.system ("clear")   
@@ -427,10 +427,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Impulse Kuruluyor...")
+      print ("Impulse Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/LimerBoy/Impulse.git")
-      print ("Impulse Kuruldu.")
+      print ("Impulse Quruldu.")
     
     elif karar2=="5":
       os.system ("clear")
@@ -448,38 +448,38 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("yubasms Kuruluyor...")
+      print ("yubasms Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/yuba-0/yubasms.git")
-      print ("yubasms kuruldu.")
+      print ("yubasms Quruldu.")
       
   elif karar=="3":
     os.system ("clear")
     print ("""
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 •                                                 •
-•            ~ŞİFRE KIRMA ARAÇLARI~               •
+•            ~ŞİFRƏ QIRMA ALƏTLƏRİ~               •
 •                                                 •
 •       [1] Hydra Brute Force                     •
 •       [2] İnstagram Brute Force                 • 
-•       [3] E-mail brute Force                    •
-•       [4] Hash Şifre Kırıcı                     •
+•       [3] E-mail Brute Force                    •
+•       [4] Hash Şifre Qırıcı                     •
 •       [5] Wordlist Oluşturucu                   •
-•       [6] Instagram brute Force 2               •
-•       [7] HashCat Hash şifre Kırıcı             •
+•       [6] Instagram Brute Force 2               •
+•       [7] HashCat Hash Şifre QKırıcı            •
 •       [8] Katak Toolkit                         •
 •       [9] Facebook Brute Force                  •
-•       [10] Wi-fi Güvenlik Denetim               •
+•       [10] Wi-fi Təhlükəsizlik Nəzarəti         •
 •                                                 •
-•       [x] Çıkış Yapmak İçin                     •
+•       [x] Çıxmaq Üçün                           •
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 """)
-    karar3=input ("Ne Yapmak İstersiniz: ")
+    karar3=input ("Nə etmək istəyirsən: ")
     
     if karar3=="x":
-      print ("Yine Bekleriz...")
+      print ("Yenə Gözləyirik...")
       sys.exit()
     elif karar3=="1":
       os.system ("clear")
@@ -497,11 +497,11 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Hydra Kuruluyor...")
+      print ("Hydra Qurulur...")
       os.system ("apt update")
       os.system ("pkg install tsu")
       os.system ("git clone https://github.com/vanhauser-thc/thc-hydra.git")
-      print ("Hydra Kuruldu.")
+      print ("Hydra Quruldu.")
       
     elif karar3=="2":
       os.system ("clear")
@@ -519,10 +519,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Instagram Kuruluyor...")
+      print ("Instagram Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/Bitwise-01/Instagram-.git")
-      print ("Instagram Kuruldu.")
+      print ("Instagram Quruldu.")
       
     elif karar3=="3":
       os.system ("clear")
@@ -540,10 +540,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Brute-Force-gmail Yükleniyor...")
+      print ("Brute-Force-gmail Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/0xfff0800/Brute-force-gmail.git")
-      print ("Brute-Force-gmail Kuruldu.")
+      print ("Brute-Force-gmail Quruldu.")
     
     elif karar3=="4":
       os.system ("clear")
@@ -561,11 +561,11 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("hasher Kuruluyor...")
+      print ("hasher Qurulur...")
       os.system ("apt update")
       os.system ("apt install python2 git")
       os.system ("git clone https://github.com/CiKu370/hasher.git")
-      print ("Hasher Kuruldu.")
+      print ("Hasher Quruldu.")
       
     elif karar3=="5":
       os.system ("clear")
@@ -583,9 +583,9 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("cheekyPassListCreator Kuruluyor...")
+      print ("cheekyPassListCreator Qurulur...")
       os.system ("git clone https://github.com/mXBozkurt/cheekyPassListCreator.git")
-      print ("cheekyPassListCreator Kuruldu.")
+      print ("cheekyPassListCreator Quruldu.")
       
     elif karar3=="6":
       os.system ("clear")
@@ -603,10 +603,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("İnstaHack kuruluyor...")
+      print ("İnstaHack Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/evildevill/instahack.git")
-      print ("İnstaHack Kuruldu.")
+      print ("İnstaHack Quruldu.")
       
     elif karar3=="7":
       os.system ("clear")
@@ -624,10 +624,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("HashCat Kuruluyor...")
+      print ("HashCat Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/hashcat/hashcat.git")
-      print ("HashCat Kuruldu.")
+      print ("HashCat Quruldu.")
       
     elif karar3=="8":
       os.system ("clear")
@@ -645,12 +645,12 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Katak Kuruluyor...")
+      print ("Katak Qurulur...")
       os.system ("apt update && apt upgrade")
       os.system ("apt install git python2")
       os.system ("pip2 install requests progressbar")
       os.system ("git clone https://github.com/Gameye98/Katak.git")
-      print ("Katak Kuruldu.")
+      print ("Katak Quruldu.")
     
     elif karar3=="9":
       os.system ("clear")
@@ -668,10 +668,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("FBBrute Kuruluyor...")
+      print ("FBBrute Qurulur...")
       os.system ("apt install git python2")
       os.system ("git clone https://github.com/Gameye98/FBBrute.git")
-      print ("FBBrute Kuruldu.")
+      print ("FBBrute Quruldu.")
    
     elif karar3=="10":
       os.system ("clear")
@@ -689,37 +689,37 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Aircrack-ng Kuruluyor...")
+      print ("Aircrack-ng Qurulur...")
       os.system ("apt update")
       os.system ("https://github.com/aircrack-ng/aircrack-ng.git")
-      print ("Aircrack-ng Kuruldu.")
+      print ("Aircrack-ng Quruldu.")
       
   elif karar=="4":
     os.system ("clear")
     print ("""
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 •                                                 •
-•        ~GÜVENLİK AÇIĞI ANALİZ ARAÇLARI~         •
+•        ~TƏHLÜKƏSİZLİK ANALİZİ ALƏTLƏRİ~         •
 •                                                 •
-•      [1] Nmap Ağ Tarama                         •
-•      [2] SQLMap Web Site Açık Tarama            • 
-•      [3] RED_HAWK Web Site Açık Tarama          •
-•      [4] Easymap Web Site Açık Tarama           •
-•      [5] AstraNmap Güvenlik Tarayıcısı          •
-•      [6] SQLscan SQL Açık Tarayıcı              •
-•      [7] Wordpresscan wordpres Tarayıcı         •
-•      [8] wpscan Wordpres Açık Tarayıcı          •
-•      [9] XAttacker Web Site açık Tarayıcı       •
-•      [10] Admin Panel Bulucu                    •
+•      [1] Nmap Şəbəkə Axtarışı                   •
+•      [2] SQLMap Web Sayt Açığı Axtarışı         • 
+•      [3] RED_HAWK Web Sayt Açığı Axtarışı       •
+•      [4] Easymap Web Sayt Açığı Axtarışı        •
+•      [5] AstraNmap Təhlükəsizlik Brauzereri     •
+•      [6] SQLscan SQL Açıx Axtarışı              •
+•      [7] Wordpresscan wordpres Axtaraşı         •
+•      [8] wpscan Wordpres Açıx Axtarışı          •
+•      [9] XAttacker Web Site Açıx Axtarışı       •
+•      [10] Admin Paneli Tapan                    •
 •                                                 •
-•       [x] Çıkış Yapmak İçin                     •
+•       [x] Çıxmaq Üçün                           •
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 """)
-    karar5 = input ("Ne Yapmak İstersiniz: ")
+    karar5 = input ("Nə etmək istəyirsən: ")
     if karar5=="x":
-      print ("Yine Bekleriz...")
+      print ("Yenə Gözləyirik...")
       break
     elif karar5=="1":
       os.system ("clear")
@@ -737,10 +737,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Nmap Kuruluyor...")
+      print ("Nmap Qurulur...")
       os.system ("apt update")
       os.system ("pkg install nmap")
-      print ("Nmap Kuruldu.")
+      print ("Nmap Quruldu.")
       
     elif karar5=="2":
       os.system ("clear")
@@ -758,10 +758,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("SQLMap Kuruluyor...")
+      print ("SQLMap Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/sqlmapproject/sqlmap.git")
-      print ("SQLMap Kuruldu.")
+      print ("SQLMap Quruldu.")
       
     elif karar5=="3":
       os.system ("clear")
@@ -779,10 +779,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("RED_HAWK Kuruluyor...")
+      print ("RED_HAWK Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/Tuhinshubhra/RED_HAWK.git")
-      print ("RED_HAWK Kuruldu.")
+      print ("RED_HAWK Quruldu.")
       
     elif karar5=="4":
       os.system ("clear")
@@ -799,11 +799,11 @@ while True:
 •                  created by: @senseioffical     •
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""")
-      print ("Easymap Kuruluyor...")
+      print ("Easymap Qurulur...")
       os.system ("clear")
       os.system ("apt update")
       os.system ("git clone https://github.com/Cvar1984/Easymap.git")
-      print ("Easymap Kuruldu.")
+      print ("Easymap Quruldu.")
       
     elif karar5=="5":
       os.system ("clear")
@@ -821,10 +821,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("AstraNamp Kuruluyor...")
+      print ("AstraNamp Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/Gameye98/AstraNmap.git")
-      print ("AstraNmap Kuruldu.")
+      print ("AstraNmap Quruldu.")
       
     elif karar5=="6":
       os.system ("clear")
@@ -842,10 +842,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("SQLscan Kuruluyor...")
+      print ("SQLscan Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/Cvar1984/sqlscan.git")
-      print ("SQLscan Kuruldu.")
+      print ("SQLscan Quruldu.")
       
     elif karar5=="7":
       os.system ("clear")
@@ -863,10 +863,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Wordpresscan Kuruluyor...")
+      print ("Wordpresscan Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/swisskyrepo/Wordpresscan.git")
-      print ("Wordpresscan Kuruldu.")
+      print ("Wordpresscan Quruldu.")
       
     elif karar5=="8":
       os.system ("clear")
@@ -884,10 +884,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("wpscan Kuruluyor...")
+      print ("wpscan Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/wpscanteam/wpscan.git")
-      print ("wpscan Kuruldu.")
+      print ("wpscan Quruldu.")
       
     elif karar5=="9":
       os.system ("clear")
@@ -905,10 +905,10 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("XAttacker Kuruluyor...")
+      print ("XAttacker Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/Moham3dRiahi/XAttacker.git")
-      print ("XAttacker Kuruldu.")
+      print ("XAttacker Quruldu.")
       
     elif karar5=="10":
       os.system ("clear")
@@ -926,13 +926,13 @@ while True:
 •                                                 •
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 """)
-      print ("Admin-Panel-Finder Kuruluyor...")
+      print ("Admin-Panel-Finder Qurulur...")
       os.system ("apt update")
       os.system ("git clone https://github.com/bdblackhat/admin-panel-finder.git")
-      print ("Admin-Panel-Finder Kuruldu.")
+      print ("Admin-Panel-Finder Quruldu.")
        
   else :
-    print ("Lütfen Geçerli Bir Sayı Giriniz!")
+    print ("Zəhmət olmasa etibarlı bir nömrə daxil edin!")
        
        
        
